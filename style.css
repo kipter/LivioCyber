@@ -166,6 +166,14 @@ p {
   }
   .nav-bar {
     display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+  }
+  .nav-bar > ul{
+    width: 100%;
+    height: auto;
   }
 }
 @media screen and (max-width: 510px) {
@@ -177,7 +185,7 @@ p {
 @media screen and (max-width: 405px) {
   .nav-bar > ul {
     width: 90px;
-    text-align: center;
+    text-align: left;
   }
   #menu-logo{
     width: 30px;
@@ -192,7 +200,7 @@ p {
 
 @media screen and (max-width:343px){
   .nav-bar{
-    justify-content: right;
+    justify-content: center;
     padding: 10px;
   }
 }
